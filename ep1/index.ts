@@ -4,7 +4,7 @@ let y:number = 10
 y=20
 let Do you want to go home?:boolean = false
 console.log(firstName)
-console.log(Y)
+console.log(y)
 console.log(Do you want to go home?)
 
 
