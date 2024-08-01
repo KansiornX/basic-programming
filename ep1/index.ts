@@ -2,10 +2,10 @@ const  firstName:string = 'Kanisorn'
 
 let y:number = 10 
 y=20
-let Do you want to go home?:boolean = false
+let doYouWantToGoHome:boolean = false
 console.log(firstName)
 console.log(y)
-console.log(Do you want to go home?)
+console.log(doYouWantToGoHome)
 
 
 const a: number = 29
