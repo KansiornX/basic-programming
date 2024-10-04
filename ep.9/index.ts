@@ -4764,7 +4764,7 @@ const football = {
                 },
                 {
                     "rank": 3,
-                    "team": {
+                    "team": { 
                         "id": 33,
                         "name": "Manchester United",
                         "logo": "https://media.api-sports.io/football/teams/33.png"
@@ -5594,7 +5594,14 @@ const football = {
         return this.league.standings.filter(function(element, index){
             return element.goalsDiff === 12
         })
+    },
+    underK: function (){
+        return this.league.standings(function(element, index){
+            return element.underK ===
+        })
     }
+    
 }
+
 
 console.log(football.goalsDiff())
