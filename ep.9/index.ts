@@ -5597,7 +5597,7 @@ const football = {
     },
     underK: function (){
         return this.league.standings(function(element, index){
-            return element.underK ===
+            return element.underK 
         })
     }
     
